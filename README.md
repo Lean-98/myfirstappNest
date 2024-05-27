@@ -38,6 +38,13 @@ $ npm install
 # development
 $ npm run start
 
+# docker
+$ docker compose up -d
+
+# Primsa
+$ npx prisma migrate dev
+$ npx prisma migrate dev --name init
+
 # watch mode
 $ npm run start:dev
 
